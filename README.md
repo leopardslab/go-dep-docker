@@ -8,6 +8,11 @@
 This is an unofficial Docker image buit on Official Golang Docker image by installing Dep package manager using the official installation script.
 
 Automated builds to keep updting with the newest versions!
+## Tags
+| Tag    | branch | base image    |                                                                                                                                                                                          |
+|--------|--------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `latest` | `master` | `golang`        | [![](https://images.microbadger.com/badges/image/leopardslab/go-dep.svg)](https://microbadger.com/images/leopardslab/go-dep "Get your own image badge on microbadger.com")               |
+| `alpine` | `alpine` | `golang:alpine` | [![](https://images.microbadger.com/badges/image/leopardslab/go-dep:alpine.svg)](https://microbadger.com/images/leopardslab/go-dep:alpine "Get your own image badge on microbadger.com") |
 
 ## How to use
 
