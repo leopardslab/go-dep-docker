@@ -1,4 +1,10 @@
 # Golang with Dep package manager tool
+[![Automated Build Status](https://img.shields.io/docker/cloud/automated/leopardslab/go-dep.svg?style=for-the-badge)](https://img.shields.io/docker/cloud/automated/leopardslab/go-dep.svg?style=for-the-badge)
+[![Automated Build Passing Status](https://img.shields.io/docker/cloud/build/leopardslab/go-dep.svg?style=for-the-badge)](https://img.shields.io/docker/cloud/build/leopardslab/go-dep.svg?style=for-the-badge)
+[![Docker Pulls](https://img.shields.io/docker/pulls/leopardslab/go-dep.svg?style=for-the-badge)](https://img.shields.io/docker/pulls/leopardslab/go-dep.svg?style=for-the-badge)
+
+
+
 This is an unofficial Docker image buit on Official Golang Docker image by installing Dep package manager using the official installation script.
 
 Automated builds to keep updting with the newest versions!
