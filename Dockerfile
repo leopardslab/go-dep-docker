@@ -1,6 +1,7 @@
-FROM golang
+FROM golang:alpine
 
-RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+RUN apk add curl \
+&&  curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 
 ENTRYPOINT ["dep"]
 
